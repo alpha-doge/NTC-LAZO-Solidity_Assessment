@@ -17,19 +17,23 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
 
 pragma solidity 0.8.26;
-contract NFToken{   
-    public variables here
+
+contract NFToken{
+    
+    // public variables here
         string public tokenName = "DOGE Coin";
         string public tokenAbbrv = "DOGE";
         uint public totalSupply =0;
-    mapping variable here
+
+    // mapping variable here
         mapping(address => uint) public bal;
-    mint function
+
+    // mint function
         function mint(address add, uint val) public{
             totalSupply += val;
             bal[add] += val;
         }
-    burn function
+    // burn function
         function burn(address add, uint val) public{
             require(bal[add] >= val, "The number you've inputted does not compute with the balance.");
                 totalSupply -= val;
