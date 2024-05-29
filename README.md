@@ -51,4 +51,4 @@ Kobe Michael A. Lazo
 
 **License**
 
-This project is licensed under the DOGE License - see the LICENSE.md file for details
+This project is licensed under the DOGE License
