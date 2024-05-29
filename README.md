@@ -38,6 +38,7 @@ You have to compile the code in order for it to work, you can do that by clickin
 
 Once you're done compiling, you have to go to the deploy section in the Remix IDE then deploy the code to run the NFT Doge Coin transaction.
 Copy paste your Account number in the deploy section then paste it in any transaction tab you want whether it is check your balance, minting, and burning coins.
+
 ![image](https://github.com/alpha-doge/NTC-LAZO-Solidity_Assessment/assets/125114021/3febdf57-594c-4f5b-ae78-8cf6aee1892a)
 
 **Author**
