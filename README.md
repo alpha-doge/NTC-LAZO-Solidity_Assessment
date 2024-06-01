@@ -1,3 +1,4 @@
+git rev-parse --show-toplevel
 # SOLIDITY ASSESSMENT
 
 In this repository, this contains the required code for the Solidity: ETH PROOF BEGINNER EVM Course challenge. 
